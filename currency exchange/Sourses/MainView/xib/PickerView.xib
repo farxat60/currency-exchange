@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="PickerView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="197"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u4c-DN-LgH">
+                    <rect key="frame" x="0.0" y="35" width="375" height="162"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="JY6-p4-1db"/>
+                        <outlet property="delegate" destination="-1" id="i8L-Bx-4uZ"/>
+                    </connections>
+                </pickerView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wjw-ZJ-oxz">
+                    <rect key="frame" x="334" y="0.0" width="37" height="30"/>
+                    <state key="normal" title="Done">
+                        <color key="titleColor" red="0.057654999196529388" green="0.017833758145570755" blue="0.014826406724750996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="doneButton:" destination="-1" eventType="touchUpInside" id="0Dr-r8-Pp9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="u4c-DN-LgH" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="1nK-sn-I46"/>
+                <constraint firstItem="u4c-DN-LgH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Rqg-cN-F9E"/>
+                <constraint firstItem="wjw-ZJ-oxz" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="334" id="ohg-P2-nLR"/>
+                <constraint firstAttribute="trailing" secondItem="u4c-DN-LgH" secondAttribute="trailing" id="sQ5-av-ucv"/>
+                <constraint firstItem="wjw-ZJ-oxz" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="zdL-sm-vE7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="88.5" y="287.5"/>
+        </view>
+    </objects>
+</document>
