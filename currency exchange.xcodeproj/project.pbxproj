@@ -19,7 +19,7 @@
 		184F13841FF2B89B00467AC6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F13831FF2B89B00467AC6 /* MainViewController.m */; };
 		1873E8F11FFD715300987A13 /* CurrenciesNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1873E8F01FFD715300987A13 /* CurrenciesNetworking.m */; };
 		1873E8F41FFD8DE300987A13 /* NBUCurrenciesNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1873E8F31FFD8DE300987A13 /* NBUCurrenciesNetworking.m */; };
-		B7FF5C5DD7B589A587E83DAF /* libPods-currencies.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A5CECD52AC7117D728101C /* libPods-currencies.a */; };
+		18C0391E2007D84100E4F557 /* libPods-currency exchange.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0391F2007D84100E4F557 /* libPods-currency exchange.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,8 +42,12 @@
 		1873E8F01FFD715300987A13 /* CurrenciesNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrenciesNetworking.m; sourceTree = "<group>"; };
 		1873E8F21FFD8DE300987A13 /* NBUCurrenciesNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBUCurrenciesNetworking.h; sourceTree = "<group>"; };
 		1873E8F31FFD8DE300987A13 /* NBUCurrenciesNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBUCurrenciesNetworking.m; sourceTree = "<group>"; };
+		18C0391F2007D84100E4F557 /* libPods-currency exchange.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-currency exchange.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A5CECD52AC7117D728101C /* libPods-currencies.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-currencies.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B9946D60FF161C01B408C7 /* libPods-currency exchange.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-currency exchange.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAB1E3336F9EC72489C4337 /* Pods-currency exchange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-currency exchange.debug.xcconfig"; path = "Pods/Target Support Files/Pods-currency exchange/Pods-currency exchange.debug.xcconfig"; sourceTree = "<group>"; };
 		E099F34ECEC442FCFC57C475 /* Pods-currencies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-currencies.release.xcconfig"; path = "Pods/Target Support Files/Pods-currencies/Pods-currencies.release.xcconfig"; sourceTree = "<group>"; };
+		EB9A39349B504E71D9F5B676 /* Pods-currency exchange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-currency exchange.release.xcconfig"; path = "Pods/Target Support Files/Pods-currency exchange/Pods-currency exchange.release.xcconfig"; sourceTree = "<group>"; };
 		F83CBEAC3AACC71B0A7B919C /* Pods-currencies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-currencies.debug.xcconfig"; path = "Pods/Target Support Files/Pods-currencies/Pods-currencies.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7FF5C5DD7B589A587E83DAF /* libPods-currencies.a in Frameworks */,
+				18C0391E2007D84100E4F557 /* libPods-currency exchange.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +66,9 @@
 		0AEE40FEC45F88E533F05839 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18C0391F2007D84100E4F557 /* libPods-currency exchange.a */,
 				B7A5CECD52AC7117D728101C /* libPods-currencies.a */,
+				C9B9946D60FF161C01B408C7 /* libPods-currency exchange.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -80,7 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				184F13801FF2B7BD00467AC6 /* Default-568h@2x.png */,
-				184F13541FF2ACFF00467AC6 /* currency exchange */,
+				184F13541FF2ACFF00467AC6 /* СurrencyExchange */,
 				184F13531FF2ACFF00467AC6 /* Products */,
 				FB3BD2F61684083488E326EC /* Pods */,
 				0AEE40FEC45F88E533F05839 /* Frameworks */,
@@ -95,12 +101,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		184F13541FF2ACFF00467AC6 /* currency exchange */ = {
+		184F13541FF2ACFF00467AC6 /* СurrencyExchange */ = {
 			isa = PBXGroup;
 			children = (
 				184F136E1FF2AD1F00467AC6 /* Sourses */,
 			);
-			path = "currency exchange";
+			path = "СurrencyExchange";
 			sourceTree = "<group>";
 		};
 		184F136E1FF2AD1F00467AC6 /* Sourses */ = {
@@ -171,6 +177,8 @@
 			children = (
 				F83CBEAC3AACC71B0A7B919C /* Pods-currencies.debug.xcconfig */,
 				E099F34ECEC442FCFC57C475 /* Pods-currencies.release.xcconfig */,
+				CEAB1E3336F9EC72489C4337 /* Pods-currency exchange.debug.xcconfig */,
+				EB9A39349B504E71D9F5B676 /* Pods-currency exchange.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -259,7 +267,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-currencies/Pods-currencies-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-currency exchange/Pods-currency exchange-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D3F316051699A8C949775299 /* [CP] Check Pods Manifest.lock */ = {
@@ -273,7 +281,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-currencies-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-currency exchange-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -286,7 +294,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-currencies/Pods-currencies-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-currency exchange/Pods-currency exchange-resources.sh",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -295,7 +303,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-currencies/Pods-currencies-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-currency exchange/Pods-currency exchange-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -443,11 +451,11 @@
 		};
 		184F136C1FF2ACFF00467AC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F83CBEAC3AACC71B0A7B919C /* Pods-currencies.debug.xcconfig */;
+			baseConfigurationReference = CEAB1E3336F9EC72489C4337 /* Pods-currency exchange.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/currency exchange/Sourses/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/СurrencyExchange/Sourses/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-JoF-.currencies";
@@ -458,11 +466,11 @@
 		};
 		184F136D1FF2ACFF00467AC6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E099F34ECEC442FCFC57C475 /* Pods-currencies.release.xcconfig */;
+			baseConfigurationReference = EB9A39349B504E71D9F5B676 /* Pods-currency exchange.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/currency exchange/Sourses/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/СurrencyExchange/Sourses/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-JoF-.currencies";
