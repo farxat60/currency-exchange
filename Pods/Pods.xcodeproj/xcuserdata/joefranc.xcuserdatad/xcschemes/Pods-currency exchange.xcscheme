@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "88586588689023D4CA877064CF7387F2"
-               BuildableName = "libPods-currencies.a"
-               BlueprintName = "Pods-currencies"
+               BlueprintIdentifier = "A19DF7A1AD24AE17794039962C8278C2"
+               BuildableName = "libPods-currency exchange.a"
+               BlueprintName = "Pods-currency exchange"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "88586588689023D4CA877064CF7387F2"
-            BuildableName = "libPods-currencies.a"
-            BlueprintName = "Pods-currencies"
+            BlueprintIdentifier = "A19DF7A1AD24AE17794039962C8278C2"
+            BuildableName = "libPods-currency exchange.a"
+            BlueprintName = "Pods-currency exchange"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
